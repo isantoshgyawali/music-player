@@ -40,6 +40,7 @@ function MainContainer() {
             <Route exact path='/Hindi' element={<Hindi/>}/>
         </Routes>
       </Router>
+        <div className="container"></div>
     </div>
   )
 }

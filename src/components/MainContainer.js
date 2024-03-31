@@ -31,7 +31,6 @@ function MainContainer() {
         </ul>
       </div>
 
-      <Router>
         <Routes>
             <Route exact path='/' element={<AudioList/>}/>
             <Route exact path='/Favorites' element={<FavouriteList/>}/>
@@ -39,7 +38,6 @@ function MainContainer() {
             <Route exact path='/English' element={<English/>}/>
             <Route exact path='/Hindi' element={<Hindi/>}/>
         </Routes>
-      </Router>
     </div>
   )
 }
